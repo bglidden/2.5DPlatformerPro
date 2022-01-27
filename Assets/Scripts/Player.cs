@@ -100,11 +100,6 @@ void Update()
 }
 */
 
-    private void FixedUpdate()
-    {
-        //controller.Move(velocity * Time.fixedDeltaTime);
-    }
-
     public void AddCoins(int coinValue)
     {
         coins += coinValue;
